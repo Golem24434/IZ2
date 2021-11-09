@@ -1,2 +1,0 @@
-/usr/bin/ar qc libf_letter.a  CMakeFiles/f_letter.dir/src/find_letters.c.o
-/usr/bin/ranlib libf_letter.a

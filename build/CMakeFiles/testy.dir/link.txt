@@ -1,1 +1,0 @@
-/usr/bin/c++  -g -Wall -O3 -fprofile-arcs -ftest-coverage   CMakeFiles/testy.dir/test/main.cpp.o  -o testy  /usr/lib/x86_64-linux-gnu/libgtest.a -lpthread -ldl libcompute_matrix.a -pthread 

@@ -1,1 +1,0 @@
-/usr/bin/cc -fPIC -g -Wall -Werror -Wextra -O3 -fprofile-arcs -ftest-coverage  -shared  -o libmulti_compute_matrix.so CMakeFiles/multi_compute_matrix.dir/src/find_letters.c.o 
