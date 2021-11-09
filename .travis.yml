@@ -34,6 +34,7 @@ before_script:
   - cd /usr/src/gtest
   - sudo cmake CMakeLists.txt && sudo make
   - cd "${TRAVIS_BUILD_DIR}"/
+  - ls
   - sudo mkdir build 
   - sudo cd build
   - sudo cmake ..
