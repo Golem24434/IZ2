@@ -36,7 +36,7 @@ before_script:
   - cd "${TRAVIS_BUILD_DIR}"/
   - ls
   - sudo mkdir build 
-  - sudo cd build
+  - cd build
   - sudo cmake ..
   - sudo make clean 
   - sudo make
