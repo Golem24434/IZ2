@@ -31,28 +31,6 @@ TEST(fill_in_elements, ok) {
 	EXPECT_EQ(fill_in_elements(letters), -1);
 }
 
-TEST(multi_and_singleproc, ok) {
-	letter* letters[MAX_NUMBER_LETTERS];
-	fill_in_elements(letters);
-	date_frame 	start_letters,end_letters;
-	start_letters.year 	= 0;
-	start_letters.month = 0;
-	start_letters.day 	= 1;
-	end_letters.year 	= 9;
-	end_letters.month 	= 4;
-	end_letters.day 	= 25;
-	int	numb_start = binary_search(letters, date_in_key(start_letters),MAX_NUMBER_LETTERS);
-	int numb_end = binary_search(letters, date_in_key(end_letters),MAX_NUMBER_LETTERS);
-	str_topics* topics1 = singleprocces_find_topic(letters, numb_start, numb_end,7);
-	str_topics* topics2 = multiprocess_find_topic(letters, numb_start, numb_end,7);
-	EXPECT_EQ(equality_test(topics1,topics2),1);
-
-	for (int i = 0;i<MAX_NUMBER_LETTERS;++i) {
-    	free(letters[i]);
-  	}
-	free(topics1);
-	munmap(topics2,getpagesize());
-}
 
 TEST(multi_and_singleproc, not_ok) {
 	letter* letters[MAX_NUMBER_LETTERS];
@@ -182,32 +160,7 @@ TEST(singleproc_100000el, ok) {
 	free(topics2);
 }
 
-TEST(multi_200el, ok) {
-	letter*		letters[200];
-	date_frame 	start_letters,end_letters;
-	start_letters.year 	= 0;
-	start_letters.month = 0;
-	start_letters.day 	= 1;
-	end_letters.year 	= 9;
-	end_letters.month 	= 4;
-	end_letters.day 	= 25;
-	testing_letters_el(letters,200);
-	int	numb_start = binary_search(letters, date_in_key(start_letters),200);
-	int numb_end = binary_search(letters, date_in_key(end_letters),200);
-	str_topics* topics1 = multiprocess_find_topic(letters, numb_start, numb_end, 10);
-	str_topics* topics2 = (str_topics*) malloc(sizeof(str_topics));
-	topics2->number=4;
-	topics2->topics[0][0]='D';
-	topics2->topics[1][0]='E';
-	topics2->topics[2][0]='F';
-	topics2->topics[3][0]='G';
-	EXPECT_EQ(equality_test(topics1,topics2),1);
-	for (int i = 0;i<200;++i) {
-    	free(letters[i]);
-  	}
-	munmap(topics1,getpagesize());
-	free(topics2);
-}
+
 
 
 
