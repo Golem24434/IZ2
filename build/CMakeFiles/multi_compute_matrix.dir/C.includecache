@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/omar/try/include/testy/find_letters.h
+/home/omar/IZ2/include/testy/find_letters.h
 stdio.h
 -
 stdlib.h
@@ -28,7 +28,7 @@ time.h
 dlfcn.h
 -
 
-/home/omar/try/src/find_letters.c
+/home/omar/IZ2/src/find_letters.c
 ../include/testy/find_letters.h
-/home/omar/try/include/testy/find_letters.h
+/home/omar/IZ2/include/testy/find_letters.h
 

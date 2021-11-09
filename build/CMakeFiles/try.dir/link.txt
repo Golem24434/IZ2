@@ -1,1 +1,1 @@
-/usr/bin/cc -g -Wall -Werror -Wextra -O3 -fprofile-arcs -ftest-coverage   CMakeFiles/try.dir/src/main.c.o  -o try  -lpthread -ldl libf_letter.a -pthread 
+/usr/bin/cc -g -Wall -Werror -Wextra -O3 -fprofile-arcs -ftest-coverage   CMakeFiles/try.dir/src/main.c.o  -o try  -lpthread -ldl libf_letter.a -lpthread 

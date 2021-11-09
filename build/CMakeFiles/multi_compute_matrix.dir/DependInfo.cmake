@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/omar/try/src/find_letters.c" "/home/omar/try/build/CMakeFiles/multi_compute_matrix.dir/src/find_letters.c.o"
+  "/home/omar/IZ2/src/find_letters.c" "/home/omar/IZ2/build/CMakeFiles/multi_compute_matrix.dir/src/find_letters.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_C
-  "SOURCE_DIR=\"/home/omar/try\""
+  "SOURCE_DIR=\"/home/omar/IZ2\""
   "multi_compute_matrix_EXPORTS"
   )
 

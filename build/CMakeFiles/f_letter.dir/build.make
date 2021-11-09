@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/omar/try
+CMAKE_SOURCE_DIR = /home/omar/IZ2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/omar/try/build
+CMAKE_BINARY_DIR = /home/omar/IZ2/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/f_letter.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/f_letter.dir/flags.make
 
 CMakeFiles/f_letter.dir/src/find_letters.c.o: CMakeFiles/f_letter.dir/flags.make
 CMakeFiles/f_letter.dir/src/find_letters.c.o: ../src/find_letters.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omar/try/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/f_letter.dir/src/find_letters.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/f_letter.dir/src/find_letters.c.o   -c /home/omar/try/src/find_letters.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omar/IZ2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/f_letter.dir/src/find_letters.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/f_letter.dir/src/find_letters.c.o   -c /home/omar/IZ2/src/find_letters.c
 
 CMakeFiles/f_letter.dir/src/find_letters.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/f_letter.dir/src/find_letters.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/omar/try/src/find_letters.c > CMakeFiles/f_letter.dir/src/find_letters.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/omar/IZ2/src/find_letters.c > CMakeFiles/f_letter.dir/src/find_letters.c.i
 
 CMakeFiles/f_letter.dir/src/find_letters.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/f_letter.dir/src/find_letters.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/omar/try/src/find_letters.c -o CMakeFiles/f_letter.dir/src/find_letters.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/omar/IZ2/src/find_letters.c -o CMakeFiles/f_letter.dir/src/find_letters.c.s
 
 # Object files for target f_letter
 f_letter_OBJECTS = \
@@ -80,7 +80,7 @@ f_letter_EXTERNAL_OBJECTS =
 libf_letter.a: CMakeFiles/f_letter.dir/src/find_letters.c.o
 libf_letter.a: CMakeFiles/f_letter.dir/build.make
 libf_letter.a: CMakeFiles/f_letter.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/omar/try/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libf_letter.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/omar/IZ2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libf_letter.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/f_letter.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/f_letter.dir/link.txt --verbose=$(VERBOSE)
 
@@ -94,6 +94,6 @@ CMakeFiles/f_letter.dir/clean:
 .PHONY : CMakeFiles/f_letter.dir/clean
 
 CMakeFiles/f_letter.dir/depend:
-	cd /home/omar/try/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/omar/try /home/omar/try /home/omar/try/build /home/omar/try/build /home/omar/try/build/CMakeFiles/f_letter.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/omar/IZ2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/omar/IZ2 /home/omar/IZ2 /home/omar/IZ2/build /home/omar/IZ2/build /home/omar/IZ2/build/CMakeFiles/f_letter.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/f_letter.dir/depend
 

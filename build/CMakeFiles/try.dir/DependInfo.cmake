@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/omar/try/src/main.c" "/home/omar/try/build/CMakeFiles/try.dir/src/main.c.o"
+  "/home/omar/IZ2/src/main.c" "/home/omar/IZ2/build/CMakeFiles/try.dir/src/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_C
-  "SOURCE_DIR=\"/home/omar/try\""
+  "SOURCE_DIR=\"/home/omar/IZ2\""
   )
 
 # The include file search paths:
@@ -21,7 +21,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/omar/try/build/CMakeFiles/f_letter.dir/DependInfo.cmake"
+  "/home/omar/IZ2/build/CMakeFiles/f_letter.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

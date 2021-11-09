@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_FLAGS = -g -Wall -Werror -Wextra -O3 -fprofile-arcs -ftest-coverage -fPIC   -std=gnu11
 
-C_DEFINES = -DSOURCE_DIR=\"/home/omar/try\" -Dmulti_compute_matrix_EXPORTS
+C_DEFINES = -DSOURCE_DIR=\"/home/omar/IZ2\" -Dmulti_compute_matrix_EXPORTS
 
 C_INCLUDES = -I/include/testy 
 

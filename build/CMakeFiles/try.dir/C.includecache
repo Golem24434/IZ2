@@ -6,3 +6,29 @@
 
 #IncludeRegexTransform: 
 
+/home/omar/IZ2/include/testy/find_letters.h
+stdio.h
+-
+stdlib.h
+-
+stdbool.h
+-
+math.h
+-
+unistd.h
+-
+sys/types.h
+-
+sys/mman.h
+-
+sys/wait.h
+-
+time.h
+-
+dlfcn.h
+-
+
+/home/omar/IZ2/src/main.c
+../include/testy/find_letters.h
+/home/omar/IZ2/include/testy/find_letters.h
+

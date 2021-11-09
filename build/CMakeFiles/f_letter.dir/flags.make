@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_FLAGS = -g -Wall -Werror -Wextra -O3 -fprofile-arcs -ftest-coverage   -std=gnu11
 
-C_DEFINES = -DSOURCE_DIR=\"/home/omar/try\"
+C_DEFINES = -DSOURCE_DIR=\"/home/omar/IZ2\"
 
 C_INCLUDES = -I/include/testy 
 
