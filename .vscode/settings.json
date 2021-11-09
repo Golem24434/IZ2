@@ -1,0 +1,7 @@
+{
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "find_letters.h": "c",
+        "stdio.h": "c"
+    }
+}

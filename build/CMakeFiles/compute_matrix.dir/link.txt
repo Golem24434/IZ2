@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcompute_matrix.a  CMakeFiles/compute_matrix.dir/src/find_letters.c.o
+/usr/bin/ranlib libcompute_matrix.a
