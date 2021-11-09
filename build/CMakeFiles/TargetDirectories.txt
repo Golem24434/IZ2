@@ -1,0 +1,7 @@
+/home/omar/try/build/CMakeFiles/rebuild_cache.dir
+/home/omar/try/build/CMakeFiles/edit_cache.dir
+/home/omar/try/build/CMakeFiles/test.dir
+/home/omar/try/build/CMakeFiles/try.dir
+/home/omar/try/build/CMakeFiles/TEST.dir
+/home/omar/try/build/CMakeFiles/multi_compute_matrix.dir
+/home/omar/try/build/CMakeFiles/f_letter.dir

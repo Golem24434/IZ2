@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/testy/find_letters.h
+stdio.h
+-
+stdlib.h
+-
+stdbool.h
+-
+math.h
+-
+unistd.h
+-
+sys/types.h
+-
+sys/mman.h
+-
+sys/wait.h
+-
+
+/home/omar/try/test/find_letters.cpp
+gtest/gtest.h
+/home/omar/try/test/gtest/gtest.h
+testy/find_letters.h
+/home/omar/try/test/testy/find_letters.h
+
